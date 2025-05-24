@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Simple Website</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
@@ -14,17 +14,21 @@
       <a href="#">About</a>
       <a href="#">Contact</a>
     </nav>
+    <button id="modeToggle" class="toggle-btn">Toggle Dark/Light Mode</button>
   </header>
 
   <main>
     <section>
       <h2>About This Website</h2>
-      <p>This is a simple static website created using HTML and CSS.</p>
+      <p>This is a simple static website created using HTML, CSS, and JavaScript.</p>
+      <button onclick="showMessage()">Click Me!</button>
     </section>
   </main>
 
   <footer>
     <p>&copy; 2025 Simple Website. All rights reserved.</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
